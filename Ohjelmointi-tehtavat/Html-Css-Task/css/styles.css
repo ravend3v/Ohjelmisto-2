@@ -1,0 +1,91 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  background-color: #1f6f78; /* Example background color */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px; /* Optional padding */
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-box {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  max-width: 90%;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-text-area {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img-p {
+  margin: 0;
+  padding: 10px;;
+}
+
+/** Styles for the products page */
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 30%;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.card h2 {
+  font-size: 1.5em;
+  margin: 16px 0;
+}
+.card p {
+  font-size: 1em;
+  color: #666;
+}
